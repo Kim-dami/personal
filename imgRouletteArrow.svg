@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.934" height="32.264" viewBox="0 0 31.934 32.264">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+      }
+
+      .cls-2 {
+        fill: #ff5b00;
+      }
+    </style>
+  </defs>
+  <g id="imgRouletteArrow" transform="translate(-13072.767 -9432.481)">
+    <path id="패스_4873" data-name="패스 4873" class="cls-1" d="M13774.424,9464.413l15.369-31.068a.6.6,0,0,0-.74-.826l-15.164,5.532-15.166-5.532a.6.6,0,0,0-.736.826l15.369,31.068A.6.6,0,0,0,13774.424,9464.413Z" transform="translate(-685.156)"/>
+    <path id="패스_4874" data-name="패스 4874" class="cls-2" d="M13796.258,9459.852l-9.871-3.6a.6.6,0,0,0-.74.826l9.873,19.955a.6.6,0,0,0,1.131-.264v-16.355A.6.6,0,0,0,13796.258,9459.852Z" transform="translate(-708.043 -19.635)"/>
+  </g>
+</svg>
