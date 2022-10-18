@@ -1,41 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="98.416" viewBox="0 0 95 98.416">
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="80.415" viewBox="0 0 77 80.415">
   <defs>
     <style>
       .cls-1 {
         fill: #d10000;
       }
-
-      .cls-2 {
-        fill: #fff;
-        font-size: 18px;
-        font-family: Pretendard-Medium, Pretendard;
-        font-weight: 500;
-        letter-spacing: -0.025em;
-      }
-
-      .cls-3 {
-        font-size: 30px;
-        font-family: Pretendard-Bold, Pretendard;
-        font-weight: 700;
-      }
-
-      .cls-4 {
-        filter: url(#합치기_6);
-      }
     </style>
-    <filter id="합치기_6" x="0" y="0" width="95" height="98.416" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <g id="imgProbability" transform="translate(-263.5 -410.292)">
-    <g class="cls-4" transform="matrix(1, 0, 0, 1, 263.5, 410.29)">
-      <path id="합치기_6-2" data-name="합치기 6" class="cls-1" d="M-798.362-7723.417a38.589,38.589,0,0,1-16.447-10.386,38.087,38.087,0,0,1,1.9-54.071,38.673,38.673,0,0,1,54.414,1.888,38.089,38.089,0,0,1-1.9,54.071,38.538,38.538,0,0,1-21.933,10.025l-17.8,4.154Z" transform="translate(834.15 7806.15)"/>
-    </g>
-    <text id="당첨_10_" data-name="당첨
-10%" class="cls-2" transform="translate(311 447.5)"><tspan x="-15.332" y="0">당첨</tspan><tspan class="cls-3"><tspan x="-30.583" y="28">10%</tspan></tspan></text>
-  </g>
+  <path id="합치기_22" data-name="합치기 22" class="cls-1" d="M26.791,74.735A38.589,38.589,0,0,1,10.344,64.349a38.087,38.087,0,0,1,1.9-54.071,38.673,38.673,0,0,1,54.414,1.888,38.089,38.089,0,0,1-1.9,54.071A38.538,38.538,0,0,1,42.825,76.261l-17.8,4.154Z"/>
 </svg>
