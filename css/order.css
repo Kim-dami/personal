@@ -21,7 +21,8 @@
 #order .sectionWho .contentTooltip{position: absolute; right: 10px; top: 145px; line-height: 1rem; padding: 15px; border-radius: 5px; background-color: #FFFFFF; font-size: 0.72rem; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
 #order .sectionWho .triangleTooltip{position: absolute; z-index: -1; right: -7px; top: -20px;}
 #order .sectionOrder{position: relative; width: 100%; height: auto; margin-bottom: 5px; background-color: #FFFFFF;}
-#order .sectionOrder .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #A0A0A0; text-align: right;}
+#order .sectionOrder .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #505050; text-align: right; font-size: 0.742rem; font-weight: 500;}
+#order .sectionOrder .textRight .title{margin-right: 5px; margin-left: 12px; color: #A0A0A0;}
 #order .sectionOrder .ulOrder{position: relative; width: 100%; height: auto; padding: 0 20px; box-sizing: border-box;}
 #order .sectionOrder .liOrder{position: relative; width: 100%; height: auto; padding-bottom: 18px;}
 #order .sectionOrder .leftOrder{display: inline-block; vertical-align: top; line-height: 1rem; padding-right: 8px; border-right: 1px solid #F0F0F0;}

@@ -29,7 +29,7 @@
 #home .sectionBanner{position: relative; z-index: 10; width: 100%; height: 180px; background-color: #E0E0E0; text-align: center;}
 #home .sectionBanner .imgWeeklyMeal{width: 100%; height: 100%; vertical-align: top; object-fit: contain;}
 #home .sectionBanner .setZoom{position: absolute; top: 9px; right: 8px;}
-#home .sectionBanner .btnZoom{line-height: 16px; padding: 7px; border-radius: 5px; background-color: #FFFFFF; font-size: 0.86rem; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
+#home .sectionBanner .btnZoom{line-height: 16px; padding: 7px; border-radius: 5px; background-color: #FFFFFF; color: #505050; font-size: 0.86rem; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
 #home .sectionBanner .btnZoom:hover,
 #home .sectionBanner .btnZoom:focus{background-color: #F8F8F8;}
 #home .sectionBanner .iconZoom{width: 16px; height: 16px; vertical-align: top;}
@@ -113,11 +113,11 @@
 #mealPlan .sectionDaySelect .inputDaySelect{position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0;}
 #mealPlan .sectionDaySelect .labelDaySelect{display: block; position: relative; width: 100%; height: 65px; border-top: 1px solid #F0F0F0; border-right: 1px solid #F0F0F0; border-bottom: 1px solid #F0F0F0; box-sizing: border-box;}
 #mealPlan .sectionDaySelect .setDaySelect:first-child .labelDaySelect{border-left: 1px solid #F0F0F0;}
-#mealPlan .sectionDaySelect .dayOfWeek{position: absolute; top: 0; right: 0; left: 0; line-height: 48px; background-color: transparent; color: #131313; font-size: 1.14rem; text-align: center;}
+#mealPlan .sectionDaySelect .dayOfWeek{position: absolute; top: 0; right: 0; left: 0; line-height: 48px; background-color: transparent; color: #131313; font-size: 1.14rem; font-weight: 600; text-align: center;}
 #mealPlan .sectionDaySelect .selectedNum{position: absolute; right: 0; bottom: 0; left: 0; height: 15px; line-height: 15px; background-color: #F8F8F8; color: #C0C0C0; font-size: 0.72rem; text-align: center;}
 #mealPlan .sectionDaySelect .selectedNum.bgMain{color: #FFFFFF; font-weight: 600;}
 #mealPlan .sectionDaySelect .inputDaySelect:checked + .labelDaySelect{border-top: 2px solid #009DAD; border-right:2px solid #009DAD; border-bottom: 2px solid #009DAD; border-left: 2px solid #009DAD; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
-#mealPlan .sectionDaySelect .inputDaySelect:checked + .labelDaySelect .dayOfWeek{line-height: 47px;}
+#mealPlan .sectionDaySelect .inputDaySelect:checked + .labelDaySelect .dayOfWeek{line-height: 47px; color: #009dad;}
 #bottomFix .sectionSum{padding:15px 20px  0 20px; box-sizing: border-box; background-color: #FFFFFF;}
 #bottomFix .sectionSum:after{content: ""; display: block; clear: both;}
 #bottomFix .sectionSum .leftSum{float: left; line-height: 1.14rem; color: #A0A0A0;}
