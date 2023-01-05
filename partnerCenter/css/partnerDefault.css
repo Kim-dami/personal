@@ -202,8 +202,7 @@ footer .sectionFooterInfo .ddInfo{width: 100%; height:auto; line-height: 16px; p
 footer .sectionFooterInfo .allRights{width: 100%; height:auto; line-height: 16px; color: #A0A0A0; font-size: 12px;}
 @media all and (max-width: 1023px) {
     footer .sectionTerms{position: relative; width: 100%; margin: 0 auto 30px auto;}
-    footer .sectionTerms .lineTerms{display: block; margin-bottom: 10px;}
-    footer .sectionTerms .lineTerms .linkTerms:last-child{border-right: none;}
+    footer .sectionTerms .lineTerms{margin-bottom: 10px;}
     footer .sectionFooterInfo{width: 100%;}
     footer .sectionFooterInfo .companyNotice{word-break: keep-all;}
     footer .sectionFooterInfo .ddInfo{word-break: keep-all;}
