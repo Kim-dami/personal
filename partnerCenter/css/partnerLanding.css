@@ -29,7 +29,7 @@
     .sectionBanner{height: 630px; margin-bottom: 30px;}
     .swiperBanner .sb{padding-top: 280px;}
     .swiperBanner .sbLayout{width: 100%; padding-left: 20px; padding-right: 20px;}
-    .swiperBanner .sbCopy{position: relative; top: 0; line-height: 36px; margin-bottom: 10px; font-size: 30px;}
+    .swiperBanner .sbCopy{position: relative; top: 0; line-height: 36px; margin-bottom: 10px; font-size: 30px; font-weight: 700;}
     .swiperBanner .sbSubCopy{position: relative; top: 0; line-height: 18px; font-size: 14px;}
     .layoutBanner{width: 100%; height: auto;}
     .imageBanner{top: unset; bottom: 0; left: 0; width: 100%; height: 250px;}
@@ -71,7 +71,7 @@
 .listAdvantage .laBody{position: relative; width: 100%; height: auto; line-height: 18px; color: #909090; font-size: 14px; text-align: center;}
 @media all and (max-width: 1023px) {
     .sectionAdvantage{width: 100%; margin-bottom: 60px;}
-    .titleSection{width: 100%; margin-bottom: 25px; font-size: 22px;}
+    .titleSection{width: 100%; margin-bottom: 25px; font-size: 22px; font-weight: 700;}
     .listAdvantage{flex-wrap: wrap;}
     .listAdvantage .la{width: 50%;}
     .listAdvantage .la-1,
