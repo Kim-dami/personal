@@ -7,17 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../css/default.css">
     <link rel="stylesheet" type="text/css" href="../css/component.css">
     <link rel="stylesheet" type="text/css" href="../css/order.css">
-
-    <script src="../js/jquery-1.8.1.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $( '.btnMonthPicker' ).on("click", function() {
-                $(".btnMonthPicker .iconUnfold").toggleClass("hidden");
-                $(".btnMonthPicker .iconFold").toggleClass("hidden");
-                $(".sectionPicker").toggleClass("hidden");
-            });
-        });
-    </script>
 </head>
 <body>
     <header>
@@ -29,22 +18,27 @@
             <section class="sectionDate">
                 <button class="btnMonthPicker">
                     2022.12
-                    <svg viewBox="0 0 16 16" class="iconUnfold">
+                    <svg viewBox="0 0 16 16" class="iconUnfold hidden">
                         <g>
                             <rect width="16" height="16"/>
                             <path d="m3.75,5.88l4.25,4.24,4.25-4.24"/>
                         </g>
                     </svg>
-                    <svg viewBox="0 0 16 16" class="iconFold hidden">
+                    <svg viewBox="0 0 16 16" class="iconFold">
                         <g>
                             <rect width="16" height="16"/>
                             <path d="m3.75,10.77l4.25-4.24,4.25,4.24"/>
                         </g>
                     </svg>
                 </button>
-                <div class="textRight">주문취소는 흰색 배경일 때 가능해요</div>
+                <div class="textRight">
+                    <span class="title">흰색배경</span>
+                    <span class="body">주문취소 가능</span>
+                    <span class="title">회색배경</span>
+                    <span class="body">내역보기만 가능</span>
+                </div>
             </section>
-            <section class="sectionPicker hidden">
+            <section class="sectionPicker">
                 <div class="areaYear">
                     <fieldset class="setPreYear">
                         <button class="btnPreYear">

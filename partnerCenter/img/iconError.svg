@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4e4e;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 11px;
+        font-family: Pretendard-Bold, Pretendard;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="iconError" transform="translate(-1041.055 -195.055)">
+    <circle id="타원_34" data-name="타원 34" class="cls-1" cx="7" cy="7" r="7" transform="translate(1041.055 195.055)"/>
+    <text id="_" data-name="!" class="cls-2" transform="translate(1046.555 206.055)"><tspan x="0" y="0">!</tspan></text>
+  </g>
+</svg>

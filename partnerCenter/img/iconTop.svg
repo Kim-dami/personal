@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #505050;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g id="iconTOP" transform="translate(-1265.074 -838.894)">
+    <rect id="사각형_1320" data-name="사각형 1320" class="cls-1" width="42" height="42" transform="translate(1265.074 838.894)"/>
+    <line id="선_11" data-name="선 11" class="cls-2" y1="9.503" x2="9.503" transform="translate(1276.074 850.894)"/>
+    <line id="선_12" data-name="선 12" class="cls-2" x1="9.503" y1="9.503" transform="translate(1285.578 850.894)"/>
+    <line id="선_13" data-name="선 13" class="cls-2" y1="17.771" transform="translate(1285.578 850.894)"/>
+  </g>
+</svg>

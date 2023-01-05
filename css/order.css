@@ -21,7 +21,7 @@
 #order .sectionWho .contentTooltip{position: absolute; right: 10px; top: 145px; line-height: 1rem; padding: 15px; border-radius: 5px; background-color: #FFFFFF; font-size: 0.72rem; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
 #order .sectionWho .triangleTooltip{position: absolute; z-index: -1; right: -7px; top: -20px;}
 #order .sectionOrder{position: relative; width: 100%; height: auto; margin-bottom: 5px; background-color: #FFFFFF;}
-#order .sectionOrder .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #505050; text-align: right; font-size: 0.742rem; font-weight: 500;}
+#order .sectionOrder .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #505050; text-align: right; font-size: 0.86rem; font-weight: 500;}
 #order .sectionOrder .textRight .title{margin-right: 5px; margin-left: 12px; color: #A0A0A0;}
 #order .sectionOrder .ulOrder{position: relative; width: 100%; height: auto; padding: 0 20px; box-sizing: border-box;}
 #order .sectionOrder .liOrder{position: relative; width: 100%; height: auto; padding-bottom: 18px;}
@@ -43,10 +43,11 @@
 /* 주문내역 */
 #orderHistory{padding: 50px 0;}
 #orderHistory .sectionDate{position: relative; width: 100%; height: auto; background-color: #FFFFFF;}
-#orderHistory .sectionDate .btnMonthPicker{position: relative; height: auto; line-height: 1.14rem; padding: 20px; font-size: 1.14rem; font-weight: 600;}
+#orderHistory .sectionDate .btnMonthPicker{position: relative; z-index: 10; height: auto; line-height: 1.14rem; padding: 20px; font-size: 1.14rem; font-weight: 600;}
 #orderHistory .sectionDate .iconUnfold,
 #orderHistory .sectionDate .iconFold{margin-left: 3px;}
-#orderHistory .sectionDate .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #505050; text-align: right; font-size: 0.86rem;}
+#orderHistory .sectionDate .textRight{position: absolute; top: 0; right: 20px; line-height: 1.14rem; padding: 20px 0; color: #505050; text-align: right; font-size: 0.742rem; font-weight: 500;}
+#orderHistory .sectionDate .textRight .title{margin-right: 3px; margin-left: 10px; color: #A0A0A0;}
 #orderHistory .sectionPicker{position: absolute; top: 45px; left: 15px; z-index: 10; width: 230px; height: auto; padding: 0 15px; border-radius: 5px; background-color: #FFFFFF; box-shadow: 0 2px 8px rgba(0,0,0,12%);}
 #orderHistory .sectionPicker .areaYear{position: relative; width:100%; height: 45px; line-height: 45px; color: #131313; font-weight: 600; text-align: center;}
 #orderHistory .sectionPicker .areaYear .setPreYear,
@@ -78,7 +79,7 @@
 #orderHistory .sectionCalendar .bodyCalendar{position: relative; width: 14.28%; border: 1px solid #F0F0F0; font-size: 0.86rem;}
 #orderHistory .sectionCalendar .headCalendar{line-height: 0.86rem; padding: 6px; font-weight: 500; text-align: center;}
 #orderHistory .sectionCalendar .bodyCalendar{height: 85px;}
-#orderHistory .sectionCalendar .linkCalendar{position: relative; width: 100%; height: 100%; padding: 7px 0; box-sizing: border-box; cursor:pointer;}
+#orderHistory .sectionCalendar .linkCalendar{width: 100%; height: 100%; padding: 7px 0; box-sizing: border-box; cursor:pointer;}
 #orderHistory .sectionCalendar .linkCalendar .date{margin-bottom: 6px; padding-left: 5px; box-sizing: border-box;}
 #orderHistory .sectionCalendar .linkCalendar .badgeOrder{margin-bottom: 3px;}
 #orderHistory .sectionCalendar .linkCalendar .badgeOrder:last-child{margin-bottom: 0;}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.148;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="btnPrevBanner" class="cls-1">
+    <rect id="btnArea" class="cls-2" width="30" height="30" rx="5"/>
+    <g id="iconPrevBanner" class="cls-1" transform="translate(12.364 9.273)">
+      <line id="선_1" data-name="선 1" class="cls-3" x1="6" y2="6" transform="translate(-0.364 -0.273)"/>
+      <line id="선_2" data-name="선 2" class="cls-3" x1="6" y1="6" transform="translate(-0.364 5.727)"/>
+    </g>
+  </g>
+</svg>

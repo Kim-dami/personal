@@ -1,4 +1,5 @@
 @charset "utf-8";
+@charset "utf-8";
 /*---------------------------------------------
 	파일명 : default
 	설　명 : 폰트 및 초기화
@@ -149,3 +150,62 @@ img {border: 0; -ms-interpolation-mode: bicubic}
 
 .hidden {display:none!important;}
 .blind{position:absolute; clip:rect(0 0 0 0); width:1px; height:1px; margin:-1px; overflow:hidden;}
+
+/* 탭 - 네임택 디자인 */
+.tabCategoryTag{position: relative; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-end;}
+.tabCategoryTag .tct{position:relative; width: 200px;}
+.tabCategoryTag .tctRadio{position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: block; background: transparent; border: none; outline: none; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer;}
+.tabCategoryTag .tctRadio + .tctLabel{display:block; width: 100%; height: 48px; line-height: 48px; background: transparent; border-bottom: 2px solid #0F1838; color: #707070; font-size: 16px; text-align: center; letter-spacing: -0.5px;}
+.tabCategoryTag .tctRadio:checked + .tctLabel{background: #0F1838; border-radius: 12px 12px 0 0; color: #FFFFFF; font-weight: 600;}
+
+/* 리스트 없음 */
+.listNone{position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 150px 0;}
+.listNone .iconListNone{width: 40px; height: 40px;}
+.listNone .iconListNone .cls-1,.listNone .iconListNone .cls-4 {fill: none;}
+.listNone .iconListNone .cls-1{stroke: #909090; stroke-linecap: round; stroke-width: 2.5px;}
+.listNone .iconListNone .cls-2{fill: #909090;}
+.listNone .iconListNone .cls-3{stroke: none;}
+.listNone .txtListNone{margin-top:15px; color: #909090; font-size: 20px;}
+
+/* 페이지 네비 */
+.areaPagination{position: relative; display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.areaPagination .btnPagination{display: flex; justify-content: center; align-items: center; width: 30px; height: 30px; border: none; background: transparent; outline: none;}
+.areaPagination .btnPagination .cls-1{fill: #0F1838;}
+.areaPagination .btnPagination:disabled .cls-1{fill: #d8d8d8;}
+.areaPagination .firstPage svg{width: 12.2px; height: 9.4px;}
+.areaPagination .prePage svg{width: 6.1px; height: 9.4px;}
+.areaPagination .nextPage svg{width: 6.1px; height: 9.4px;}
+.areaPagination .lastPage svg{width: 12.2px; height: 9.4px;}
+.areaPagination .numberOfPage{position: relative;}
+.areaPagination .numberOfPage .btnNumber{width: 30px; height: 30px; color: #707070; font-size: 16px; border: none; background: transparent; outline: none; text-align: center;}
+.areaPagination .numberOfPage .btnNumber.active{background: #0F1838; color: #fff; font-weight: 600;}
+
+/* 풋터 */
+footer{position: relative; width: 100%; height: auto; padding: 30px 0 50px 0; background-color: #F0F0F0;}
+footer .sectionTerms{position: relative; width: 1080px; margin: 0 auto 30px auto;}
+footer .sectionTerms .linkTerms{display: inline-block; vertical-align: top; line-height: 12px; margin: 7px 0; padding: 0 15px; border-right: 1px solid #D0D0D0; color: #505050; font-size: 12px;}
+footer .sectionTerms .linkTerms:last-child{border-right: none;}
+footer .sectionFooterInfo{position: relative; width: 1080px; margin: 0 auto; padding: 0 15px; box-sizing: border-box;}
+footer .sectionFooterInfo .companyName{position: relative; width: 100%; height:auto; line-height: 16px; margin-bottom: 10px; color: #505050; font-size: 12px;}
+footer .sectionFooterInfo .companyName .iconUnfold,
+footer .sectionFooterInfo .companyName .iconFold{display: inline-block; vertical-align: top; width: 16px; height: 16px;}
+footer .sectionFooterInfo .companyName .iconUnfold rect,
+footer .sectionFooterInfo .companyName .iconFold rect{fill: none;}
+footer .sectionFooterInfo .companyName .iconUnfold path,
+footer .sectionFooterInfo .companyName .iconFold path{fill: none; stroke: #505050; stroke-width: 1;}
+footer .sectionFooterInfo .companyNotice{position: relative; width: 100%; height:auto; line-height: 16px; color: #A0A0A0; font-size: 12px;}
+footer .sectionFooterInfo .companyInfo{position: relative; width: 100%; height:auto; margin: 30px 0; color: #A0A0A0; font-size: 12px;}
+footer .sectionFooterInfo .dlInfo{position: relative; width: 100%; height:auto;}
+footer .sectionFooterInfo .dtInfo{position: absolute; top: 0; left: 0; width: 120px; height:auto; line-height: 16px; padding: 3px 0; color: #A0A0A0; font-size: 12px;}
+footer .sectionFooterInfo .ddInfo{width: 100%; height:auto; line-height: 16px; padding: 3px 0 3px 120px; box-sizing: border-box; color: #A0A0A0; font-size: 12px;}
+footer .sectionFooterInfo .allRights{width: 100%; height:auto; line-height: 16px; color: #A0A0A0; font-size: 12px;}
+@media all and (max-width: 1023px) {
+    footer .sectionTerms{position: relative; width: 100%; margin: 0 auto 30px auto;}
+    footer .sectionTerms .lineTerms{display: block; margin-bottom: 10px;}
+    footer .sectionTerms .lineTerms .linkTerms:last-child{border-right: none;}
+    footer .sectionFooterInfo{width: 100%;}
+    footer .sectionFooterInfo .companyNotice{word-break: keep-all;}
+    footer .sectionFooterInfo .ddInfo{word-break: keep-all;}
+}
+
+

@@ -39,7 +39,7 @@ main h2{position: relative; width: 100%; height: auto; line-height: 1.42rem; col
 main h3{position: relative; width: 100%; height: auto; line-height: 1.14rem; color:#131313; font-size: 1.14rem; font-weight: 600;}
 
 /* 하단 고정*/
-#bottomFix{position: fixed; bottom: 0; z-index: 3000; width: 100%; height: auto;}
+#bottomFix{position: fixed; bottom: 0; z-index: 1000; width: 100%; height: auto;}
 
 /* 하단 고정 네비 */
 nav{position: relative; z-index: 100; width: 100%; height: auto; background-color: #FFFFFF; box-shadow: 0 -1px 4px rgba(0,0,0,6%); overflow: hidden;}
@@ -69,7 +69,7 @@ nav .linkNav.active .txtNav{color: #009DAD;}
 
 /* 하단 라인 인풋 */
 .setBottomLine{position: relative; width: 100%; height: auto;}
-.setBottomLine .inputBottomLine{position: relative; width: 100%; height: auto; line-height: 1rem; padding: 14px 0; border-bottom: 1px solid #F0F0F0; background-color: transparent; color: #505050;}
+.setBottomLine .inputBottomLine{position: relative; width: 100%; height: auto; line-height: 1rem; padding: 14px 0; border-bottom: 1px solid #F0F0F0; border-radius: 0; background-color: transparent; color: #505050;}
 .setBottomLine .inputBottomLine:focus {border-bottom: 1px solid #131313;}
 
 /* 보더 인풋 */
@@ -86,6 +86,12 @@ nav .linkNav.active .txtNav{color: #009DAD;}
 .setRadius .labelRadius .iconRadius .checkbox{fill: #FFFFFF; stroke: #A0A0A0; stroke-linejoin: round; stroke-linecap: round; stroke-width: 1px;}
 .setRadius .labelRadius .iconRadius .check{fill: none; stroke: #FFFFFF; stroke-linejoin: round; stroke-linecap: round; stroke-width: 1px;}
 .setRadius .inputRadius:checked + .labelRadius .iconRadius .checkbox{fill: #009DAD; stroke: #009DAD;}
+
+/* 원형 체크박스 */
+.iconCircle{width: 16px; height: 16px;}
+.iconCircle rect{fill: none;}
+.iconCircle circle{fill: #009dad;}
+.iconCircle path{fill: #FFFFFF;}
 
 /* 풀 버튼 */
 .sectionFull{position: relative; width: 100%; height: auto; padding: 15px 20px 18px 20px; box-sizing: border-box; background-color: #FFFFFF;}
