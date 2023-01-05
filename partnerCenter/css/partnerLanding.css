@@ -77,7 +77,7 @@
     .listAdvantage .la-1,
     .listAdvantage .la-2{margin-bottom: 20px;}
     .listAdvantage .laImage{width: 65px; height: 65px; margin-bottom: 15px;}
-    .listAdvantage .laTitle{line-height: 16px; margin-bottom: 5px; font-size: 16px; letter-spacing: -0.5px;}
+    .listAdvantage .laTitle{line-height: 16px; margin-bottom: 5px; font-size: 16px; font-weight: 700; letter-spacing: -0.5px;}
     .listAdvantage .laBody{line-height: 16px; font-size: 12px;}
 }
 
@@ -114,7 +114,7 @@
     .sectionTech .titleSection{margin-bottom: 30px;}
     .backgroundTech{width: 100%; height: 355px; padding: 30px 0;}
     .backgroundTech .copyTech{width: 270px; margin: 0 auto;}
-    .backgroundTech p{line-height: 34px; font-size: 24px;}
+    .backgroundTech p{line-height: 32px; font-size: 24px; font-weight: 700;}
     .backgroundTech p:nth-child(2){padding-left: 15px;}
     .backgroundTech .subCopyTech{line-height: 12px; margin-top: 8px; padding-left: 30px; font-size: 10px;}
     .backgroundTech .subCopyTech .small{font-size: 10px;}
@@ -123,7 +123,7 @@
 
 /* 고정버튼 */
 .asideFixed{position: fixed; z-index: 10; flex-direction: column; align-items: center; justify-content: flex-end; bottom:80px; right: 80px; display: flex;}
-.asideFixed button{width:70px; height: 70px; padding-top:40px; border-radius: 15px; box-sizing: border-box; background-color:rgba(255, 255, 255, 0.9); background-repeat: no-repeat; box-shadow:2px 2px 6px rgba(0,0,0,0.1); font-size: 12px; font-weight: 600; text-align: center; }
+.asideFixed button{width:70px; height: 70px; padding-top:40px; border-radius: 15px; box-sizing: border-box; background-color:rgba(255, 255, 255, 0.9); background-repeat: no-repeat; color: #505050; box-shadow:2px 2px 6px rgba(0,0,0,0.1); font-size: 12px; font-weight: 600; text-align: center; }
 .asideFixed .btnCS{margin-bottom: 10px; background-image:url("https://cloudstone-partnercenter.s3.ap-northeast-2.amazonaws.com/landing/iconCS.svg"); background-position: center 3px; background-size: 40px 40px;}
 .asideFixed .btnTop{background-image:url("https://cloudstone-partnercenter.s3.ap-northeast-2.amazonaws.com/landing/iconTop.svg"); background-position: center 3px; background-size: 40px 40px;}
 @media all and (max-width: 1023px) {
