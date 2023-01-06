@@ -1,10 +1,14 @@
 @charset "utf-8";
 /*---------------------------------------------
-	파일명 : default
-	설　명 : 폰트 및 초기화
+	파일명 : partnerDefault
+	설　명 : 리뷰관리
 	클래스명 : 카멜케이스, 태그역활 + 컨텐츠내용 조합, 넘버링은 하이픈
 	작성순서 : 1. 레이아웃  2.크기/간격  3.박스모양  4.폰트  5.기타
 			position / display / float / width / height / margin / padding / border / background / font / overflow / etc...
+	메인컬러 : #0F1838
+	폰트컬러 : #131313, #505050, #707070, #909090
+	보더컬러 : #E8E8E8
+	배경컬러 : #F8F8F8, #F0F0F0
 ---------------------------------------------*/
 /* 폰트 */
 @font-face {
@@ -150,7 +154,17 @@ img {border: 0; -ms-interpolation-mode: bicubic}
 .hidden {display:none!important;}
 .blind{position:absolute; clip:rect(0 0 0 0); width:1px; height:1px; margin:-1px; overflow:hidden;}
 
-html,body{background-color: #FFFFFF; color: #505050; font-family: Pretendard; font-weight: 500;}
+html,body{background-color: #FFFFFF; color: #505050; font-family: Pretendard; font-size: 16px; font-weight: 400;}
+
+/* h3 */
+h1{position: relative; width:100%; height: auto; line-height: 42px; color: #131313; font-size: 42px; font-weight: 600;}
+h2{position: relative; width:100%; height: auto; line-height: 32px; color: #131313; font-size: 32px; font-weight: 600;}
+h3{position: relative; width:100%; height: auto; line-height: 24px; color: #131313; font-size: 24px; font-weight: 600;}
+@media all and (max-width: 1023px) {
+    h1{line-height: 26px; font-size: 26px;}
+    h2{line-height: 23px; font-size: 23px;}
+    h3{line-height: 20px; font-size: 20px;}
+}
 
 /* 탭 - 네임택 디자인 */
 .tabCategoryTag{position: relative; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-end;}
@@ -158,6 +172,16 @@ html,body{background-color: #FFFFFF; color: #505050; font-family: Pretendard; fo
 .tabCategoryTag .tctRadio{position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: block; background: transparent; border: none; outline: none; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer;}
 .tabCategoryTag .tctRadio + .tctLabel{display:block; width: 100%; height: 48px; line-height: 48px; background: transparent; border-bottom: 2px solid #0F1838; color: #707070; font-size: 16px; text-align: center; letter-spacing: -0.5px;}
 .tabCategoryTag .tctRadio:checked + .tctLabel{background: #0F1838; border-radius: 12px 12px 0 0; color: #FFFFFF; font-weight: 600;}
+
+/* 셀렉트 */
+.selectBox{display: inline-block; vertical-align: top; position: relative;}
+.selectBox .optionSelected{position: relative; width: 100%; height: auto; line-height: 28px; padding: 20px 0; color: #131313; font-size: 24px; font-weight: 600;}
+.selectBox .iconSelected{display: inline-block; vertical-align: top; width: 28px; height: 28px;}
+.selectBox select{position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; color: #131313; font-size: 24px; font-weight: 600; opacity: 0;}
+.selectBox select option{ color: #131313; font-size: 24px; font-weight: 600;}
+@media all and (max-width: 1023px) {
+    .selectBox .optionSelected{font-size: 20px;}
+}
 
 /* 리스트 없음 */
 .listNone{position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 150px 0;}

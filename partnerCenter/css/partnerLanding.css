@@ -1,5 +1,15 @@
 @charset "utf-8";
-
+/*---------------------------------------------
+	파일명 : partnerLanding
+	설　명 : 리뷰관리
+	클래스명 : 카멜케이스, 태그역활 + 컨텐츠내용 조합, 넘버링은 하이픈
+	작성순서 : 1. 레이아웃  2.크기/간격  3.박스모양  4.폰트  5.기타
+			position / display / float / width / height / margin / padding / border / background / font / overflow / etc...
+	메인컬러 : #0F1838
+	폰트컬러 : #131313, #505050, #707070, #909090
+	보더컬러 : #E8E8E8
+	배경컬러 : #F8F8F8, #F0F0F0
+---------------------------------------------*/
 /* 배너 */
 .sectionBanner{position: relative; width: 100%; height: 320px; margin-bottom: 50px; overflow: hidden;}
 .swiperBanner{position: relative; width: 100%; height: 100%;}

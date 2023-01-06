@@ -9,7 +9,6 @@
 	폰트컬러 : #131313, #505050, #707070, #909090
 	보더컬러 : #E8E8E8
 	배경컬러 : #F8F8F8, #F0F0F0
-	패딩마진 : 10px, 15px(유사영역 기본), 20px, 25px(다른영역 기본), 30px(웹박스 기본)
 ---------------------------------------------*/
 /* 리뷰 대시보드 */
 .sectionDashboard{position: relative; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; width:100%; height: auto; padding: 30px 60px 0 60px; border-radius:4px; box-sizing: border-box; background-color: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.2);}

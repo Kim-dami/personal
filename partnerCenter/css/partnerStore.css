@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*---------------------------------------------
+	파일명 : partnerStore
+	설　명 : 리뷰관리
+	클래스명 : 카멜케이스, 태그역활 + 컨텐츠내용 조합, 넘버링은 하이픈
+	작성순서 : 1. 레이아웃  2.크기/간격  3.박스모양  4.폰트  5.기타
+			position / display / float / width / height / margin / padding / border / background / font / overflow / etc...
+	메인컬러 : #0F1838
+	폰트컬러 : #131313, #505050, #707070, #909090
+	보더컬러 : #E8E8E8
+	배경컬러 : #F8F8F8, #F0F0F0
+---------------------------------------------*/
+/* 매장정보 */
+.sectionStoreInfo{position: relative; width: 1080px; height: auto; margin: 60px auto;}
+.sectionStoreInfo h3{padding: 20px 0;}
+.sectionStoreInfo h3 .btnEditor{position: absolute; top: 50%; right: 0; line-height: 20px; margin-top: -20px; padding: 10px; color: #131313; font-size: 16px; font-weight: 400; cursor: pointer;}
+.sectionStoreInfo h3 .btnEditor svg{vertical-align: top; width: 20px; height: 20px;}
+.sectionStoreInfo hr{color: #505050;}
+.sectionStoreInfo .listStoreInfo{position: relative; width: 100%; height: auto; padding: 10px 0;}
+.sectionStoreInfo .lsi{position: relative; width: 100%; height: auto; padding: 20px 0;}
+.sectionStoreInfo .lsiTitle{position: absolute; top: 0; left: 0; width: 180px; height: auto; line-height: 24px; padding: 20px 0; color: #131313; font-size: 16px; font-weight: 600;}
+.sectionStoreInfo .lsiBody{position: relative; width: 100%; height: auto; line-height: 24px; padding: 0 20px 0 180px; box-sizing: border-box; color: #505050; font-size: 16px;}
+.sectionStoreInfo .lsiBody .logoStore{width: 72px; height: 72px; border-radius: 15px;}
+.sectionStoreInfo .tableTime{margin: 5px 0 0 180px;}
+.sectionStoreInfo .tableTime tr{border-bottom: 1px solid #F0F0F0;}
+.sectionStoreInfo .tableTime tr:last-child{border-bottom: none;}
+.sectionStoreInfo .tableTime td{line-height: 16px; padding: 5px 16px; border-right: 1px solid #F0F0F0; color: #505050; font-size: 12px; text-align: center;}
+.sectionStoreInfo .tableTime td:last-child{border-right: none;}
+.sectionStoreInfo .editorStoreInfo{position: relative; width: 100%; height: auto; line-height: 20px; padding: 30px 0; color: #505050; font-size: 14px;}
+.sectionStoreInfo .editorStoreInfo p{margin-bottom: 10px;}
+.sectionStoreInfo .editorStoreInfo p:last-child{margin-bottom: 0;}
+@media all and (max-width: 1023px) {
+    .sectionStoreInfo{width: 100%; padding: 0 20px; box-sizing: border-box; margin: 40px auto;}
+    .sectionStoreInfo .listStoreInfo{padding: 5px 0;}
+    .sectionStoreInfo .lsi{padding: 15px 0;}
+    .sectionStoreInfo .lsiTitle{width: 110px; line-height: 20px; font-size: 14px;}
+    .sectionStoreInfo .lsiBody{line-height: 20px; padding: 0 15px 0 110px; font-size: 14px;}
+    .sectionStoreInfo .tableTime{width: 100%; margin: 10px 0 0 0;}
+    .sectionStoreInfo .editorStoreInfo{line-height: 18px; padding: 20px 0; font-size: 12px;}
+}
