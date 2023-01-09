@@ -188,6 +188,16 @@ h3{position: relative; width:100%; height: auto; line-height: 24px; color: #1313
     .selectBox .optionSelected{font-size: 20px;}
 }
 
+/* 라디오 - 원형 체크 디자인 */
+.setRadioCheck{position: relative; width: 100%; height: auto;}
+.setRadioCheck .inputRadioCheck{position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 10; width: 100%; height: 100%; opacity: 0;}
+.setRadioCheck .labelRadioCheck{display: block; position: relative; width:100%; height: auto;}
+.setRadioCheck .labelRadioCheck .iconRadioCheck{width: 16px; height: 16px; vertical-align: top;}
+.setRadioCheck .labelRadioCheck .iconRadioCheck rect{fill: none;}
+.setRadioCheck .labelRadioCheck .iconRadioCheck circle{fill: none; stroke: #E8E8E8; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1px;}
+.setRadioCheck .labelRadioCheck .iconRadioCheck path{fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1px;}
+.setRadioCheck .inputRadioCheck:checked + .labelRadioCheck .iconRadioCheck circle{fill: #0F1838; stroke: none;}
+
 /* 리스트 없음 */
 .listNone{position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 150px 0;}
 .listNone .iconListNone{width: 40px; height: 40px;}
