@@ -172,6 +172,11 @@ h3{position: relative; width:100%; height: auto; line-height: 24px; color: #1313
 .tabCategoryTag .tctRadio{position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: block; background: transparent; border: none; outline: none; appearance: none; -moz-appearance: none; -webkit-appearance: none; cursor: pointer;}
 .tabCategoryTag .tctRadio + .tctLabel{display:block; width: 100%; height: 48px; line-height: 48px; background: transparent; border-bottom: 2px solid #0F1838; color: #707070; font-size: 16px; text-align: center; letter-spacing: -0.5px;}
 .tabCategoryTag .tctRadio:checked + .tctLabel{background: #0F1838; border-radius: 12px 12px 0 0; color: #FFFFFF; font-weight: 600;}
+@media all and (max-width: 1023px) {
+    .tabCategoryTag{width: 100%;}
+    .tabCategoryTag .tct{width: 33.33%;}
+    .tabCategoryTag .tctRadio + .tctLabel{height: 45px; line-height: 45px; font-size: 14px;}
+}
 
 /* 셀렉트 */
 .selectBox{display: inline-block; vertical-align: top; position: relative;}
@@ -503,4 +508,9 @@ footer .sectionFooterInfo .allRights{width: 100%; height:auto; line-height: 16px
     background-color: #0F1838;
     font-size: 14px;
     font-weight: 600;
+}
+@media all and (max-width: 1023px) {
+    .areaDatepicker{width: 100%; padding: 20px 75px 20px 20px; box-sizing: border-box;}
+    .mx-datepicker-range{width: 100%;}
+    .btnDatepicker{position: absolute; top: 20px; right: 20px;}
 }

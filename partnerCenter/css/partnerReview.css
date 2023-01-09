@@ -113,18 +113,9 @@
 .sectionReview .iconReply .cls-1{fill: #707070;}
 .sectionReview .txtReply{padding-left:15px; box-sizing: border-box; color: #505050;}
 .sectionReview .btnReply{display: block; width:160px; height: 37px; line-height: 35px; border: 1px solid #0F1838; border-radius: 4px; box-sizing: border-box; background: #FFFFFF; color: #0F1838; font-size: 14px; font-weight: 600; text-align: center;}
-
 @media all and (max-width: 1023px) {
     .sectionReview .areaTab{flex-direction: column-reverse; align-items: flex-start;}
     .sectionReview .noticeDatepicker{display: none;}
-
-    .areaDatepicker{width: 100%; padding: 20px 75px 20px 20px; box-sizing: border-box;}
-    .mx-datepicker-range{width: 100%;}
-    .btnDatepicker{position: absolute; top: 20px; right: 20px;}
-    .tabCategoryTag{width: 100%;}
-    .tabCategoryTag .tct{width: 33.33%;}
-    .tabCategoryTag .tctRadio + .tctLabel{height: 45px; line-height: 45px; font-size: 14px;}
-
     .sectionReview .lr{flex-direction: column; justify-content: flex-start; padding: 20px;}
     .sectionReview .lrRating{width: 100%;}
     .sectionReview .lrUser{line-height: 16px; margin-bottom: 10px; font-size: 16px;}
