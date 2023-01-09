@@ -154,7 +154,7 @@ img {border: 0; -ms-interpolation-mode: bicubic}
 .hidden {display:none!important;}
 .blind{position:absolute; clip:rect(0 0 0 0); width:1px; height:1px; margin:-1px; overflow:hidden;}
 
-html,body{background-color: #FFFFFF; color: #505050; font-family: Pretendard; font-size: 16px; font-weight: 400; overflow: hidden;}
+html,body{background-color: #FFFFFF; color: #505050; font-family: Pretendard; font-size: 16px; font-weight: 400; overflow-x: hidden;}
 
 /* h3 */
 h1{position: relative; width:100%; height: auto; line-height: 42px; color: #131313; font-size: 42px; font-weight: 600;}
