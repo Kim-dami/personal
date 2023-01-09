@@ -79,7 +79,7 @@
 .sectionReview .lr{position: relative; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; width: 100%; height: auto; margin-bottom: 10px; padding: 30px; background-color: #FFFFFF; border: 1px solid #E8E8E8; border-radius: 4px; box-sizing: border-box;}
 .sectionReview .lr:last-child{margin-bottom: 0;}
 .sectionReview .lrRating{position: relative; width: 200px; height: auto;}
-.sectionReview .lrUser{width:100%; height: auto; line-height: 24px; margin-bottom: 12px; color: #131313; font-size: 18px; font-weight: 500; word-break: break-all;}
+.sectionReview .lrUser{width:100%; height: auto; line-height: 24px; margin-bottom: 12px; color: #131313; font-size: 18px; font-weight: 600; word-break: break-all;}
 .sectionReview .lrStar{position: relative; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; height: 20px; line-height: 20px; margin-bottom: 15px; color: #131313; font-size: 16px; font-weight: 400;}
 .sectionReview .maskStar{position: relative; width: 20px; height: 20px; margin-right: 1px; background-color: #E8E8E8; -webkit-mask-image: url("../img/maskStar.svg"); -webkit-mask-repeat: no-repeat; -webkit-mask-size: 20px 20px; mask-image: url("../img/maskStar.svg"); mask-repeat: no-repeat; mask-size: 20px 20px;}
 .sectionReview .maskStar .rangeStar{position: absolute; top: 0; bottom: 0; left: 0; height: 100%; background-color: #FFC611;}
